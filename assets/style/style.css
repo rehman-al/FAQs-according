@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Lightpink: hsl(275, 100%, 97%);
+    --Grayishpurple: hsl(292, 16%, 49%);
+    --Darkpurple: hsl(292, 42%, 14%);
+}
+
+section.main {
+    background-image: url("../images/background-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-color: var(--Lightpink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+section.main .content {
+    width: 450px;
+    background-color: var(--White);
+    border-radius: 15px;
+    padding: 0 27px;
+    padding-bottom: 35px;
+}
+
+section.main .content .head {
+    width: 100%;
+    display: flex;
+    margin: 36px 0;
+}
+
+section.main .content .head h1 {
+    padding-left: 12px;
+    font-size: 40px;
+}
+
+section.main .content .content-data .question {
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+section.main .content .content-data .question #minus {
+    display: none;
+}
+
+section.main .content .content-data .answer {
+    padding: 20px 0;
+    display: none;
+    color: rgba(42, 42, 42, 0.828);
+}
+
